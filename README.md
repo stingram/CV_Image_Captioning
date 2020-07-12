@@ -228,7 +228,7 @@ I have transform_train resize the data, take random crops that are the size that
 
 ## How to use this repository
 
-*RUNNING THE NOTEBOOKS IN THIS REPO REQUIRE A GPU-enabled environment.*
+**RUNNING THE NOTEBOOKS IN THIS REPO REQUIRE A GPU-enabled environment.**
 
 With a GPU-enabled environment, simply go through the notebooks in the order specified by the first number given at the beginning of each notebook name. For reference, they are listed here:
 
