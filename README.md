@@ -224,3 +224,17 @@ An image transform `transform_train` for pre-processing the training images is a
 - if using a pre-trained model, you must perform the corresponding appropriate normalization.
 
 I have transform_train resize the data, take random crops that are the size that Encoder expects, randomly flips data horizontally, converts the data into a tensor for PyTorch to use, normalizes the images based on the mean and standard deviation for the RGB channels.
+
+
+## How to use this repository
+
+RUNNING THE NOTEBOOKS IN THIS REPO REQUIRE A GPU-enabled environment.
+
+With a GPU-enabled environment, simply go through the notebooks in the order specified by the first number given at the beginning of each notebook name. For reference, they are listed here:
+
+```
+0_Dataset.ipynb
+1_Preliminaries.ipynb
+2_Training.ipynb
+3_Inference.ipynb
+```
