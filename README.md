@@ -6,7 +6,7 @@ The model and hyperparameters in this repository are informed by  [this paper](h
 ## Network Architecture
 
 ### Encoder
-'''
+```
 EncoderCNN(
   (resnet): Sequential(
     (0): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
@@ -185,17 +185,17 @@ EncoderCNN(
   )
   (embed): Linear(in_features=2048, out_features=512, bias=True)
 )
-'''
+```
 
 ### Decoder
 
-'''
+```
 DecoderRNN(
   (embed): Embedding(9955, 512)
   (lstm): LSTM(512, 512, num_layers=2, batch_first=True, dropout=0.1)
   (fc): Linear(in_features=512, out_features=9955, bias=True)
 )
-'''
+```
 
 ## Hyperparameters
 
