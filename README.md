@@ -6,6 +6,10 @@ In this repo, I implement a neural network architecture to automatically generat
 
 The model and hyperparameters in this repository are informed by  [this paper](https://arxiv.org/pdf/1502.03044.pdf) and [this paper](https://arxiv.org/pdf/1411.4555.pdf).
 
+A couple of examples showing the input image and output caption of the network are show below.
+
+![Example Images](images/examples.png)
+
 ## Network Architecture
 
 ### Description
