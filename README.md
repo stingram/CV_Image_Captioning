@@ -2,7 +2,7 @@
 CNN-LSTM Image Captioning Project
 
 ## Summary
-In this repo, I implement a neural network architecture to automatically generate captions from images. After using the Microsoft Common Objects in COntext (MS COCO) dataset to train my network, I demonstrate the network's performance on novel images.
+In this repo, I implement a neural network architecture to automatically generate captions from images. After using the Microsoft Common Objects in COntext (MS COCO) dataset to train my network, I demonstrate the network's performance on novel images. After 3 epochs, an average loss of 2.04 was achieved
 
 The model and hyperparameters in this repository are informed by  [this paper](https://arxiv.org/pdf/1502.03044.pdf) and [this paper](https://arxiv.org/pdf/1411.4555.pdf).
 
